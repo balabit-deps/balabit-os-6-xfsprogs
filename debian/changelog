@@ -1,3 +1,10 @@
+xfsprogs (4.3.0+nmu1ubuntu1.1) xenial; urgency=medium
+
+  * xfs_copy: Fix meta UUID handling on multiple copies upstream fix
+    cbca895541facb. (LP: #1696102)
+
+ -- Brian Murray <brian@ubuntu.com>  Tue, 05 Sep 2017 09:59:09 -0700
+
 xfsprogs (4.3.0+nmu1ubuntu1) xenial; urgency=medium
 
   * Enable blkid in d-i, by dropping explicitly passed configure option
